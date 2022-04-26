@@ -1,6 +1,6 @@
 # Frontend Mentor - Solução NFT Card
 
-![Design preview for the NFT Card coding challenge](.assets/design/desktop-preview.jpg)
+![Design preview for the NFT Card coding challenge](./assets/design/desktop-preview.jpg)
 
 ## Olá! 👋
 
