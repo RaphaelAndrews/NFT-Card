@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semibold: 600;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: var(--main-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 26px;
+    font-weight: var(--font-semibold);
+}
+
+p {
+    color: var(--soft-blue);
+    font-weight: var(--font-light);
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: .75rem;
+    width: 80%;
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.card__img {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__photo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: .75rem;
+}
+
+.card__img:hover .card__overlay {
+    left: 0;
+    cursor: pointer;
+}
+
+.card__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: .75rem;
+    left: -100%;
+    bottom: 0;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.card__box {
+    display: grid;
+    gap: 1rem;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__eth {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: var(--font-regular);
+    color: var(--cyan);
+}
+
+.card__days {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: var(--font-regular);
+    color: var(--soft-blue);
+}
+
+.line {
+    width: 100%;
+    border: 1px solid var(--line);
+}
+
+.card__person {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__avatar {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.card__name {
+    font-size: 16px;
+    color: var(--white);
+    font-weight: var(--font-regular);
+}
+
+.card__name:hover,
+h1:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card__name-alt {
+    color: var(--soft-blue);
+}
