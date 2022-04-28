@@ -4,7 +4,7 @@
 
 ## Olá! 👋
 
-Essa é a minha solução para o desafio do Frontendmentor.io - Interactive Rating
+Essa é a minha solução para o desafio do Frontendmentor.io - NFT Card
 
 [Link do desafio](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub/nft-preview-card-component-qCsoOjpbk)
 
