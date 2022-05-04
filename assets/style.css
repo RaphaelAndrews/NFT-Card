@@ -39,7 +39,6 @@ p {
 }
 
 .card {
-    display: flex;
     background-color: var(--card-bg);
     border-radius: .75rem;
     width: 80%;
